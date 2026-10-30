@@ -1,0 +1,11 @@
+menu "ESP32 IOT WIFI Configuration" 
+
+    config ESP_WIFI_SSID 
+        string "WIFI SSID" 
+        default "" 
+
+    config ESP_WIFI_PASSWORD
+        string "WIFI PASSWORD"
+        default ""
+
+    endmenu
